@@ -1,0 +1,5 @@
+# ignore capture files
+*.pcap
+*.cap
+__pycache__/
+.DS_Store
