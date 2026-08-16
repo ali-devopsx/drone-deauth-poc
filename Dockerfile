@@ -1,5 +1,8 @@
 # Kali linux base image
-FROM kalilinux/kali-rolling
+#FROM kalilinux/kali-rolling
+
+# Ubuntu base image
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
