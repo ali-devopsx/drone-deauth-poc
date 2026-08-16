@@ -16,6 +16,10 @@ RUN apt-get clean && \
     iproute2 \
     iw \
     python3 \
+    network-manager \
+    python3-pip \
+    python3-scapy \
+    python3-opencv \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
