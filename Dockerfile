@@ -11,6 +11,11 @@ RUN apt-get clean && \
     apt-get update --fix-missing && \
     apt-get install -y --no-install-recommends \
     aircrack-ng \
+    pciutils \
+    usbutils \
+    iproute2 \
+    iw \
+    python3 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
