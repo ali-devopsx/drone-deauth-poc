@@ -41,6 +41,6 @@ uses UDP sockets to communicate with tello SDK on port 8889:
 
 make sure the script is executable and run with root privileges:
 
-## bash
-chmod +x run_attack.sh
-sudo ./run_attack.sh
+``` bash
+ali@devops:~/drone-deauth-poc$ chmod +x run_attack.sh
+ali@devops:~/drone-deauth-poc$ sudo ./run_attack.sh
