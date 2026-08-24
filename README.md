@@ -44,3 +44,4 @@ make sure the script is executable and run with root privileges:
 ## bash
 chmod +x run_attack.sh
 sudo ./run_attack.sh
+
