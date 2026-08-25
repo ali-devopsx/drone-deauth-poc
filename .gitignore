@@ -3,3 +3,5 @@
 *.cap
 __pycache__/
 .DS_Store
+*.csv
+tmp/
